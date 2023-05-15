@@ -1,0 +1,42 @@
+
+Estilos Inline (em linha)
+
+Um estilo em linha perde muitas das vantagens das folhas de estilo pela mistura de conteúdo com apresentação. Use este método com moderação, como quando um estilo deve ser aplicado a uma única ocorrência de um elemento.
+
+Para usar estilos inline você usa o atributo de estilo na tag relevante. O atributo de estilo pode conter qualquer propriedade CSS. O exemplo mostra como mudar a cor e a margem esquerda de um parágrafo:
+
+<p style="color: sienna; margin-left: 20px">
+Este é um parágrafo
+</p>
+
+==============================================================================================
+
+Folha de Estilo Interna
+
+Uma folha de estilo interna deve ser usada quando um único documento tem um estilo particular. Você define estilos internos na seção head usando a tag <style>, assim:
+
+<head>
+<style type="text/css">
+hr {color: sienna}
+p {margin-left: 20px}
+body {background-image: url("images/back40.gif")}
+</style>
+</head>
+
+==============================================================================================
+
+Folha de Estilo Externa
+
+Uma folha de estilo é ideal quando o estilo é aplicado a muitas páginas. Com uma folha de estilo externa, você pode mudar a aparência de um sítio Web inteiro mudando apenas um arquivo. Cada página deve vincular-se com a folha de estilo usando a tag <link>. A tag <link> vai dentro da seção head:
+
+<head>
+<link rel="stylesheet" type="text/css" href="meuestilo.css" />
+</head>
+
+O navegador lerá as definições de estilo do arquivo meuestilo.css, e formatará o documento de acordo com ela.
+
+Uma folha de estilo externa pode ser escrita em qualquer editor de texto. O arquivo não deve conter qualquer tag html. A sua folha de estilo deve ser salva com uma extensão .css. Um exemplo de uma folha de estilo está mostrado abaixo:
+
+hr {color: sienna}
+p {margin-left: 20px}
+body {background-image: url("images/back40.gif")}
