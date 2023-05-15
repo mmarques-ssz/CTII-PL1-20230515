@@ -1,0 +1,43 @@
+        body
+        {
+            background-image: url("fundo.jpeg");
+            background-size: cover;
+        }
+        p
+        {
+            color: green;
+            font-family: Arial;
+        }
+        #azul
+        {
+            color: blue;
+        }
+        .vermelho
+        {
+            color: red;
+        }
+        table
+        {
+            width: 600px;
+        }
+        tr
+        {
+            height: 50px;
+        }
+        td.menor
+        {
+            width: 100px;
+        }
+        td
+        {
+            text-align: center;
+            background-color: yellow;
+            border-style: solid;
+            border-width: 3px;
+            border-color: white;
+        }
+        .arredondado
+        {
+            border-radius: 50%;
+        }
+    
